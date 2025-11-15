@@ -1,3 +1,40 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+:root {
+    --theme-color: #1234fd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button, a {
+    background-color: var(--theme-color);
+    color: #fff;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--theme-color);
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ul li {
+    margin: .25rem 0;
+}
+
+code {
+    font-family: monospace;
+    background-color: #9997;
+    padding: .25rem;
+    border-radius: .4rem;
+}
