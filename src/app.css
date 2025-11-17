@@ -38,3 +38,7 @@ code {
     padding: .25rem;
     border-radius: .4rem;
 }
+
+img {
+    display: block;
+}
