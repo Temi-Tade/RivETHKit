@@ -26,7 +26,6 @@
                         <path d="M0 0 L5 10 L10 0 Z" fill="#333" stroke="#333" stroke-width="1" stroke-linecap="round"/>
                     {:else}
                         <path d="M0 10 L5 0 L10 10 Z" fill="#333" stroke="#333" stroke-width="1" stroke-linecap="round"/>
-
                     {/if}
                 </svg>
             </button>

@@ -4,8 +4,8 @@
 
 <section id="about">
     <div class="p-2">
-        <div>
-            <img src="{base}/images/riveth landing.png" alt="RivETH">
+        <div class="flex justify-center">
+            <img src="{base}/images/riveth landing.png" alt="RivETH" loading="lazy" class="rounded-sm md:w-200 w-500">
         </div>
 
         <h2 class="font-bold text-xl">About RivETH</h2>

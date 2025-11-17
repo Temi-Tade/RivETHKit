@@ -30,7 +30,7 @@
         </div>
 
         <div>
-            <img src="{base}/images/RivETH.png" alt="RivETH" width="100">
+            <img src="{base}/images/RivETH.png" alt="RivETH" width="100" class="rounded-sm">
         </div>
         <h1 class="text-5xl font-[900] p-1">RivETH</h1>
         <div class="font-[700] italic text-md text-center p-1">
