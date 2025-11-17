@@ -5,7 +5,7 @@
 <section id="about">
     <div class="p-2">
         <div>
-            <img src="{base}/src/lib/assets/riveth landing.png" alt="RivETH">
+            <img src="{base}/images/riveth landing.png" alt="RivETH">
         </div>
 
         <h2 class="font-bold text-xl">About RivETH</h2>

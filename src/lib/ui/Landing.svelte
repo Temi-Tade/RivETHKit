@@ -2,6 +2,7 @@
     import type AboutType from "$lib/types/AboutType";
 	import { onMount } from "svelte";
 	import Nav from "./Nav.svelte";
+    import { base } from "$app/paths";
 
     const ABOUTS: AboutType[] = [
         { id: 0, label: "A local, open-source Ethereum Smart Contract development toolkit that runs right out of the box, in the browser." },
@@ -28,6 +29,9 @@
             <Nav/>
         </div>
 
+        <div>
+            <img src="{base}/images/RivETH.png" alt="RivETH" width="100">
+        </div>
         <h1 class="text-5xl font-[900] p-1">RivETH</h1>
         <div class="font-[700] italic text-md text-center p-1">
             <p>{ABOUTS[currentAboutEntryIndex].label}</p>

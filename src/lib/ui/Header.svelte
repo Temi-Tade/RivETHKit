@@ -5,7 +5,7 @@
 <header class="p-2 shadow-sm sticky top-0 bg-[#fff] h-[6dvh] z-999">
     <div class="flex items-center justify-between">
         <div class="flex items-center justify-between">
-            <img src="{base}/src/lib/assets/favicon.svg" alt="RivETH" width="25">
+            <img src="{base}/images/RivETH.png" alt="RivETH" width="25">
             <h1 class="text-2xl text-bold">RivETH</h1>
         </div>
 
